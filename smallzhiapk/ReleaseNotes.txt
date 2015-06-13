@@ -1,0 +1,65 @@
+
+
+
+=======================================================================================
+- 产品名称: 小智音箱
+- 整体版本: Ver_2.6.0_20150317
+- 发布日期: 2015/03/17
+
+
+- 文件列表：
+	1) Android_App\BoxAssistant.apk;  
+           android版本助手程序           
+
+	2) iOS_App\BoxAssistant.dm;
+           iOS版本助手程序
+
+	3) Embeded_App\Upgrade.apk;
+           盒子里的版本更新程序
+
+	4) Embeded_App\VoiceAssistantBeta.apk;	
+           盒子里的小智音箱主程序
+
+	5) Embeded_App\Wifiserver.apk;
+           盒子里网络连接
+
+
+- Git Tag:
+    1) Android_App: Ver_2.6.0.20150317
+	2) iOS_App    : Ver_1.2.0.20150317
+	3) Embeded_App: Ver_1.2.0.20150317
+
+
+- 更新内容：
+	修复bug：(安卓助手端)
+    1.BUG #4140 【概述】盒子断开电源后（连着同一个音箱），安卓和ios的电池电量显示不同
+    2.BUG #4130 【概述】2.5.2的盒子重置后，用新助手端(1.2.0)不能让盒子通过AP连接网络
+    3.BUG #4119 【概述】【大概率】IP地址显示错误
+    4.BUG #4120 【概述】盒子端发广播手机端接收不到
+  更新：
+    1.语间识别结果调用接口（http://hezi.360iii.net:48080/webapi/webservice/?talk=%E6%92%AD%E6%94%BE%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E6%AD%8C&originaltalk=%E6%92%AD%E6%94%BE%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E6%AD%8C&option=phone&imei=hankDLNA&app_id=com.voice.assistant.hezi&robot_id=f4837ef1-b961-4c94-ab2b-b46948a88478&valid_time=3000000&match_cmd=[(2)]&request_id=2）
+     如果包含英文调用搜索接口
+    2.wifi配置页面，增加等待动画
+    注：BUG #4121 【概述】备忘铃声无效(请等待音箱端备忘功能正常再测试)
+	
+	
+     盒子端
+    （1）优化重置盒子后，打开AP时间太长。
+    （2）BUG #4115 【概述】无法设置备忘
+    （3）解决 sdcard下的sn文件删除，只保留/system/usr/properties/sn文件时，助手端显示sn号全都是0
+	（4）更改思必驰账号，密码
+	（5）BUG #4131 【概述】插上电源后，没有"滴"的提示音
+	（6）解决net_4网段下不能搜索到设备。
+	
+	苹果助手端
+	
+	（1）更改的组播 ip域
+	（2）BUG #4143 【概述】【大概率】【ios】预置歌曲刷不出来
+    （3）BUG #4134 【概述】【ios】盒子断开电源后，助手端查看到的还是“正在充电”
+    （4）BUG #3534 【概述】在安卓端设置了LED灯开关，在IOS端未开启(于2015.03.05已解决)
+
+	
+	  
+	
+
+
