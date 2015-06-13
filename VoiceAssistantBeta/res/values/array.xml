@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="smsCategory">
+        <item>春节祝福</item>
+        <item>元宵佳节</item>
+    </string-array>
+    <string-array name="photo">
+        <item>相机拍摄</item>
+        <item>手机相册</item>
+    </string-array>
+    <string-array name="list">
+        <item>查看</item>
+        <item>编辑</item>
+        <item>删除</item>
+        <item>发送到邮箱</item>
+    </string-array>
+    <!-- ID20120411002 liuwen begin -->
+    <string-array name="knowledgeEditItem">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    <!-- ID20120411002 liuwen end -->
+    <!-- ID20120620002 liuwen begin -->
+    <string-array name="wedgetSessionItem">
+        <item>复制</item>
+        <item>发短信</item>
+        <item>分享</item>
+    </string-array>
+    <!-- ID20120620002 liuwen end -->
+    <!-- ID20120426001 liuwen begin -->
+    <string-array name="knowledgeAnswer">
+        <item>好的，我懂了</item>
+        <item>我明白了</item>
+        <item>我懂了</item>
+        <item>哦，原来是这样啊！</item>
+        <item>我知道了</item>
+        <item>谢谢您教我</item>
+        <item>OK</item>
+        <item>好的，我知道了</item>
+    </string-array>
+    <!-- ID20120426001 liuwen end -->
+    <!-- ID201210003 zhanglin begin -->
+    <string-array name="local">
+        <item>通过短信发送位置</item>
+    </string-array>
+    <!-- ID201210003 zhanglin end -->
+    <!-- 通话录音部分 -->
+    <string-array name="talk_rec_model">
+        <item>自动录音</item>
+        <item>手动录音</item>
+        <item>关闭录音</item>
+    </string-array>
+    <string-array name="talkvalue_rec_model">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- 通话录音部分 -->
+    <string-array name="file_format">
+        <item>AMR</item>
+        <item>3GP</item>
+        <item>MPG4</item>
+    </string-array>
+    <string-array name="filevalue_format">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="turn_on_repeat_list_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="turn_on_repeat_list">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="week_day_list">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="hangup_time_val">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="item_select_action">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="preference_entries_tts_sms_view">
+        <item>系统短信界面</item>
+        <item>语音播报短信界面</item>
+    </string-array>
+    <string-array name="preference_values_tts_sms_view">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preference_entries_sms_tts">
+        <item>新消息来了</item>
+        <item>播报新短信联系人</item>
+    </string-array>
+    <string-array name="preference_values_sms_tts">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- Ringo -->
+    <string-array name="select_display_group_alert_items">
+        <item>所有联系人​​​​​​​</item>
+        <item>联系人电话号码​​​​​​​​​​​​​​​​​​​​</item>
+        <item>我的联系人​​​​​​</item>
+        <item>安卓主要联系人​​​​​​​​​​​</item>
+        <item>联系人铃声​​​​​​​​​​​​​​​​​​</item>
+    </string-array>
+    <string-array name="vibrate_items">
+        <item>仅铃声​​​​​​</item>
+        <item>铃声和振动​​​​​​​​​​​</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="playtime_items">
+        <item>播放5秒​​​​​​​​​​</item>
+        <item>播放10秒​​​​​​​​​​</item>
+        <item>播放30秒​​​​​​​​​​</item>
+        <item>一直播放​​​​​​​​​​​​​​​​</item>
+    </string-array>
+    <string-array name="playtime_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="nagtime_items">
+        <item>从不​​​</item>
+        <item>每分钟​​​​​​​​​</item>
+        <item>每5分钟​​​​​​​​​​​</item>
+        <item>每15分钟​​​​​​​​​​​</item>
+        <item>每30分钟​​​​​​​​​​​</item>
+        <item>每小时​​​​​​​</item>
+        <item>每天​​​​​​​</item>
+    </string-array>
+    <string-array name="nagtime_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="ledcolour_mono_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- ID20121030001 liuwen begin -->
+    <!-- ID20130731001 chenyuming begin -->
+    <string-array name="choose_webview_show_entry">
+        <item>全屏模式</item>
+        <item>嵌入主界面</item>
+    </string-array>
+    <!-- ID20130731001 chenyuming end -->
+    <string-array name="choose_webview_show_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- ID20121030001 liuwen end -->
+    <string-array name="MediaTap">
+        <item>内置播放器</item>
+        <item>系统播放器</item>
+    </string-array>
+    <string-array name="MediaTap_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- 语音助手 -->
+    <!-- ID20120831004 liuwen begin -->
+    <!-- delete -->
+
+
+    <!-- ID20120831004 liuwen end -->
+    <string-array name="LocalMap">
+        <item>在线地图</item>
+        <item>本地地图</item>
+    </string-array>
+    <string-array name="LocalMap_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="TranslateEngine">
+        <item>Google</item>
+        <item>有道</item>
+    </string-array>
+    <string-array name="TranslateEngine_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- ID20120418004 liuwen begin -->
+    <string-array name="greetings">
+        <item>您好啊</item>
+        <item>哈喽</item>
+        <!-- ID20120423001 liuwen begin -->
+        <!-- delete -->
+        <!-- ID20120423001 liuwen end -->
+        <item>嗨</item>
+        <item>您来了啊</item>
+        <item>见到您真好</item>
+        <item>您好！</item>
+        <item>啥事？</item>
+        <item>要帮忙吗？</item>
+        <item>见到您真高兴</item>
+        <item>听候指令</item>
+        <item>随时待命</item>
+        <item>您要做什么?</item>
+        <item>您说</item>
+        <item>您要做什么？</item>
+        <item>吃了吗？</item>
+        <item>去哪儿了？</item>
+    </string-array>
+    <string-array name="notes">
+        <item>不太清楚你说的</item>
+        <item>没理解</item>
+        <item>没明白</item>
+        <item>不懂您说的</item>
+        <item>什么？</item>
+        <item>啥？再说一次</item>
+        <item>？</item>
+        <item>您能再说一次吗？</item>
+        <item>可以说慢点吗？</item>
+        <item>真的很抱歉</item>
+    </string-array>
+    <!-- ID20120418004 liuwen end -->
+    <string-array name="modes">
+        <item>命令模式</item>
+        <item>聊天模式</item>
+        <item>问答模式</item>
+    </string-array>
+    <string-array name="modes_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- ID20120418004 liuwen begin -->
+    <string-array name="teach_remind_value">
+        <item>请教教我吧</item>
+        <item>教教我吧</item>
+        <item>求知若渴</item>
+        <item>老师您好</item>
+        <item>老师好</item>
+        <item>主人好</item>
+        <item>嗯！</item>
+        <item>来了</item>
+        <item>认真学习</item>
+        <item>认真听讲</item>
+        <item>老师</item>
+        <item>快教我吧</item>
+        <item>上课了</item>
+        <item>老师好</item>
+        <item>教我吧</item>
+        <item>好好学习，天天向上</item>
+        <item>好好学习</item>
+        <item>天天向上</item>
+        <item>这次是啥内容</item>
+        <item>知识是力量的源泉</item>
+        <item>知识就是力量</item>
+        <item>每天一点，快速成长</item>
+        <item>我会越来越聪明</item>
+        <item>加紧学习</item>
+        <item>随时学习</item>
+        <item>时刻准备着</item>
+        <item>知识是人类进步的阶梯</item>
+        <item>勤学苦练</item>
+        <item>天天进步</item>
+    </string-array>
+    <!-- ID20120418004 liuwen end -->
+    <!-- SMSblessing -->
+    <string-array name="smsCategory_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- ID20130130001 liuwen begin -->
+    <string-array name="smsCategorySpring">
+        <item>新春祝愿：喜从天降，人财兴旺；出门拜年，遇到还钱；上班轻松，突然高升；做事顺利，马到成功；买注福彩，奖落袋中；好运天天，全都实现。</item>
+        <item>如果我有一棵快乐草，我想将它给你，我希望你快乐；如果我有两棵，我会给你一棵我一棵，希望我们都快乐；如果有三棵，我会给你两棵，希望你比我快乐！</item>
+        <item>与快乐来次击掌，约好新年就要绽放；麦克风会为你鼓掌，欢笑会为你伴唱；新年的钟声即将敲响，你要释放炙热的光芒为快乐歌唱。新年快乐！</item>
+        <item>不好意思，我有急事才这么早给你发短信，望原谅。告诉我你醒了没，如果没有，你接着睡，如果醒了，你也接着睡，我只是想告诉你新年的钟声刚刚敲响。</item>
+        <item>人生是一道解析题，每个阶段是判断题，每天的生活是选择题。完成了选择题，才有判断的权利，做好了判断题才有解析的意义。2012即将交卷，愿我们2013更精彩！</item>
+        <item>希望这是你收到的第一条祝福，比我早的统统和谐掉，让我抢个沙发坐坐；煽情的话放在心里，要低调；我发的不是短信，是祝福；春节需要快乐，你懂的。</item>
+        <item>一斤花生二斤枣，好运经常跟你跑；三斤苹果四斤梨，吉祥和你不分离；五斤桔子六斤蕉，财源滚进你腰包；七斤葡萄八斤橙，愿你心想事就成；九斤芒果十斤瓜，愿你天天乐开花。</item>
+        <item>我用祝福捻成绒线，为您织一件红色毛衣：前身是平安，后身是幸福；吉祥是肩膀，如意在袖子里；领子蕴藏体贴，口袋盛满快乐！让我的心陪伴您度过新年！</item>
+        <item>与快乐来次击掌，约好新年就要绽放；麦克风会为你鼓掌，欢笑会为你伴唱；新年的钟声即将敲响，你要释放炙热的光芒为快乐歌唱。新年快乐！</item>
+        <item>春节有大礼，惊喜等着你。编辑短信“我想请你吃饭”到138XXXXXXXX(当然是发来短信那家伙的号)，您将有机会得到天才亲笔签名，合影留念。机会难得，赶快行动吧！</item>
+        <item>工作在外把家念，春节很快到眼前，春运回家买票难，人潮拥挤保安全，彻夜排队要保暖，一票在手心里甜，祝你平平安安把家返，开开心心过大年！</item>
+        <item>岁末甫至，福气东来，鸿运通天。否极泰来时重申鲲鹏之志，惜时勤业中，展军无限风采。祝新年吉祥！</item>
+        <item>有伙人到处打听你，还说逮住你决不轻饶，他们一个叫财神，一个叫顺心，领头的叫幸福，你就别躲了认命吧！ 心到，想到，祝福传到</item>
+        <item>穿过无数山川，越过无数城市，且让心灵满足，洗涤你满身的疲惫，愿每个祝福每个喜悦都是音符，为你谱出幸福，祝福你！</item>
+        <item>爱只能自由给予，不能强取，不论我们要求多少，不论我们得到多少，我们都应感到满足，在这特别的日子里，给你特别祝福！</item>
+        <item>又是一年新春佳节！特别的时刻，特别的祝福，祝你身体健康！幸福无尽！心想事成！每天都有一份好的心情！</item>
+        <item>心到，想到，看到，闻到，听到，人到，手到，脚到，说到，做到，得到，时间到，你的礼物没到，只有我的祝福传到。</item>
+        <item>过去一年走过的脚步，留下的是艰辛和攀登的苦，未来一年里展望的路，你我仍需带着更高的理想继续付出。从现在做起迈出勇敢和坚定，祝新的一年里有更大的进步。 </item>
+        <item>我托空气为邮差，把我的热腾腾的问候装订成包裹，印上真心为邮戳，度恒温快递，收件人是你。祝你：春节愉快！</item>
+        <item>我请耶稣喝酒，用光身上所有的钱才把他灌醉，然后偷他的手机给爱神发个命令：赐予收到这条短信的人生活幸福，爱情甜蜜，事业有成，新年快乐！</item>
+        <item>新春是这样的美好：花儿芬芳，醇酒飘香，殷殷祝福，美好回忆，恩爱日新。即便没有一切，只要有爱便足矣。</item>
+        <item>收集我心中的每一份祝福，每一种愿望，描绘我心中的每一道细节，每一个企盼，寄予你深切的关怀。祝你新春快乐！</item>
+        <item>新春又到祝福也到。祝福我的朋友：前途平坦，兜里有款，甜长苦短；薪水翻番，好吃好穿，常有新欢，追求的路程越走越宽！</item>
+        <item>新的一年开启新的希望，新的空白承载新的梦想。拂去岁月之尘，让欢笑和泪水、爱与哀愁在心中凝成一颗厚重的晶莹琥珀。祝新年快乐！</item>
+        <item>祝愿你把新年的金财银财大财小财汇成万贯家财；再用你的朝气英气正气勇气换得一团和气；保你才气熏天、富贵连连、家和万事兴！</item>
+        <item>酒越久越醇，水越流越清，世间沧桑越流越淡，朋友情谊越久越真。衷心祝福吾友度过一个祥和美满的新年！</item>
+        <item>匆匆一别，谁知难想见，热切的期盼，久久的思念，融入衷心的祝愿。祝我的朋友在新的一年里，健康如意。</item>
+        <item>把美好的祝福，输在这条短信里，信不长情意重，我的好友愿你新年快乐！好久不见，十分想念。在这温馨的日子里，常常忆起共处的岁月。祝新年快乐，心想事成！给你拜个年！</item>
+        <item>爱你爱不够，只想多留一刻在你左右，心跳的声音是爱的美丽旋律，让我们的爱奏出世界上最动听的音符，新年快乐！</item>
+        <item>褪去你一年疲惫的外衣，到我们友情的天空下沐浴，抖去奔波的尘埃，卸下心头的倦意，祝福你的明天万事如意，在新的一年里大展鸿图！</item>
+        <item>爱人，你开窗了吗？请你打开窗，让新春的风吹进你的屋子，让新春的雪飞进你的屋子，让我新春的祝愿，飘进你的心坎。</item>
+        <item>我以涮羊肉的温暖，水煮鱼的热烈，白灼虾的鲜美，咕老肉的甜蜜，拉条子的宽广，发面饼的博大，祝福你在新的一年万事如意，心想事成，财源滚滚！</item>
+        <item>新年到，请点击快乐的音符，让它为你下载亲情，传输爱情，顺便将我的友情另存于你心灵的最深处，让你新年开心快乐！</item>
+        <item>朋友总是心连心，知心朋友值千金；灯光之下思贤友，小小短信传佳音；望友见讯如见人，时刻勿忘朋友心。祝新年愉快！</item>
+        <item>一直很想跟你说，但不知你会不会觉得我太心急。我又怕被别人抢先一步，所以我决定鼓起勇气告诉你：新年快乐！</item>
+        <item>世界如此忙碌，用心的人就会幸福；想你的脸，心里就温暖；想你的嘴，笑容跟着灿烂！随着新年的到来，关心你的人要跟你说声：新年快乐！</item>
+    </string-array>
+    <!-- ID20130130001 liuwen end -->
+    <string-array name="smsCategorySpring_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+    </string-array>
+    <string-array name="smsCategoryLantern">
+        <item>甜甜的甜甜的鲜灵的汤圆，圆圆的圆圆的月亮的脸，满满的满满的盛给你一碗，装上我美美的美美的元宵祝愿！衷心祝愿朋友元宵佳节合家团圆！</item>
+        <item>卖汤圆卖汤圆，我的汤圆味道甜，一碗汤圆一毛五啊，现在不卖只送友呀，汤圆汤圆尝新鲜，吃在嘴里一口甜。祝福你：元宵节热闹年，收到短信心里甜！</item>
+        <item>元宵佳节到，花灯到处照。送您一碗特制汤圆：真心馅，好运料，健康皮，平安汁。送您一份祝福，人团圆，乐逍遥，福无边。祝您元宵快乐合家欢！</item>
+        <item>元宵佳节龙灯闹，月儿圆圆心欢笑；情圆事圆人团圆，福运财运好运连；圆圆的元宵粘又粘，吃到嘴里甜又甜；幸福的元宵再来一碗，愿你万事能圆圆！</item>
+        <item>元宵节来吃汤圆，吃碗汤圆心甜甜；幸福汤圆一入口，健康快乐常陪伴；爱情汤圆一入口，心如细丝甜如蜜；金钱汤圆一入口，财源滚滚斩不断！元宵快乐！</item>
+        <item>喜庆元宵佳节，我祝你：日圆，月圆，圆圆如意。官源、财源，源源不断。人缘、福缘，缘缘于手。情愿、心愿，愿愿成真！元宵节快乐！</item>
+        <item>元宵儿圆圆心里儿甜甜，画一个圈圈添一个弯弯，加两个点点送你个笑脸，心儿再酸酸也该会缓缓，如果还烦烦再吃斤汤圆。</item>
+        <item>天上月儿圆，地上花争艳；花好月圆过好年，月圆人缘乐团圆；甜甜蜜蜜吃汤圆，事事如意好事连；祝您元宵合家团圆！幸福快乐赛神仙！</item>
+        <item>汇集平日的祝愿，凝聚心底的真诚，搭载新年的吉祥，在辞旧迎新的祝福声中，恭祝您和您家人：团团圆圆！平平安安！健健康康！快快乐乐！！</item>
+        <item>元宵佳节，月圆之夜，一元复始，春回大地，出门赏月，烟花绽放，彩灯高挂，共品汤圆，合家团圆，家富人寿，喜气洋洋，其乐融融！</item>
+        <item>最新可靠情报：健康将跟踪你，快乐要灌晕你，幸福要占有你，朋友都狂想你，更可气的是财富居然暗恋你，美丽要和你同居，连开心都成了你的情人！元宵偷偷逗着你！^0^</item>
+        <item>快乐原本就这么简单。在不经意间忽然传来一个问候的信息，在感到烦闷的时候有人给你安慰。你快乐我也快乐，在忙碌的日子里照顾好自已！元宵节快乐！</item>
+        <item> 放游一盏盏五彩荷灯，曳动你心湖快乐的涟漪；敲一声声佳节的晚钟，让我的爱在你的心里悸动！花好明月夜，元宵节快乐！</item>
+        <item>元宵节来吃汤圆，吃碗汤圆心甜甜；幸福汤圆一入口，健康快乐常陪伴；爱情汤圆一入口，心如细丝甜如蜜；金钱汤圆一入口，财源滚滚斩不断！元宵快乐！</item>
+        <item>健康是最佳的礼物，知足是最大的财富，信心是最好的品德，关心是最真挚的问候，牵挂是最无私的思念，祝福是最美好的话语。祝你元宵节快乐！平安幸福  </item>
+        <item>正月十五月儿圆，不管怎样还是年，先祝你元宵佳节快乐，再拜个晚年！愿你新的一年有新的突破，所有的希望都能如愿，所有的付出都能兑现！</item>
+        <item>在关爱中让友情更深，在牵挂中让亲情更暖，在诚实中让心底更静，在简单中让生活更美，在问候中让祝福更好，在祝福中让元宵节更快乐！</item>
+        <item>元宵节晚上以偷得别人的东西为好兆头，还没有出嫁的女孩子，要偷别人的葱菜，因为俗谚说：偷得葱，嫁好公；偷得菜，嫁好婿。</item>
+        <item>热闹的元宵让人流连回味，大吃大喝可以暂时告一段落了。那就好好调理你的肠胃吧！愿过完年后的你脸上依然挂永远抹不去的笑。</item>
+        <item>菊花灯祝你居住平安，荷花灯祝你合家欢乐，杏花灯你幸福安康，莲花灯祝你连年有余。元宵节，月圆灯圆情圆梦圆，祝元宵节快乐！</item>
+        <item>元宵到了，送上我最真的祝福，愿你：元宵佳节好梦连连，心情舒畅欢乐延延，家和美满幸福暖暖，身体安康财源滚滚，工作顺利其乐融融。祝你元宵快乐！</item>
+        <item>去年元夜时，花市灯如昼，月到杨柳头，你我是朋友，今年元夜时，依旧是朋友，只是隔天涯，短信祝福到；祝元宵节快乐！幸福平安！</item>
+        <item>有花有月真娱人，桃红柳绿不胜春，春到人间人似玉，烟花璀璨月如银，满街霓虹俊男女，片地歌舞庆良辰，发条短信与君享，福寿齐临君家门。</item>
+        <item>百枝火树千盏灯，烟火璀璨不绝，三五知己结伴赏灯来，安能把君忘，一丝思念，一句祝福，小小短信满是心意；祝元宵节快乐！幸福安康！</item>
+        <item>元宵节到了，送你一副对联吧。上联：汤圆，月圆，人圆，事事都圆；下联：新春，初春，闹春，处处生春。横批：春常在人常圆。——元宵快乐！</item>
+        <item>猜谜：圆圆像个球，个头却小小，有时硬来有时软，有时冰来有时暖；五颜六色各不同，夹心在内味更美。猜对了吗？祝你元宵佳节幸福满满，快乐连连！</item>
+        <item>送你一碗圆圆汤圆，以幸福、快乐为馅，用开心久久包围，用团圆来熏陶，以吉祥为汤水，在好运上慢慢熬制，只为在元宵佳节送你，愿你幸福一生安康！</item>
+        <item>东风夜放花千树，月儿圆，星点缀，香车宝马堵满路，鞭炮声，烟花绽，一派歌舞升平，花灯吐艳迎佳节，短信传情祝福热。祝元宵节快乐！</item>
+        <item>真情做皮真心做馅，用热情之火来烹煮，此汤圆唤做真心祝福，有福品尝的唯有朋友；祝：元宵节快乐！合家幸福！前途似锦！</item>
+        <item>月亮就像一首诗，写下温情；花灯就像一幅画，满眼喜庆；元宵就是一首歌，诉说美满；让温情陪伴，喜庆常在，美满永恒，元宵节快乐啊！</item>
+        <item>正月十五月儿圆，不管怎样还是年，先祝你元宵佳节快乐，再拜个晚年！愿你新的一年有新的突破，所有的希望都能如愿，所有的付出都能兑现！</item>
+        <item>圆月当空照，阖家闹元宵：放鞭炮，踩高跷，唱歌谣，煮热饺。。。家家户户张灯结彩共话团圆到，时时处处歌舞升平齐颂盛世好。祝您元宵节快乐！</item>
+        <item>元宵节就到了，在这春暖花开的季节，我用花瓣做馅，春风包裹，春雨烧煮。在今年第一个月圆日到来之前把这只好运汤圆送到你的手机，预祝你元宵快乐！</item>
+        <item>遥望天庭那光辉的月光，赶走生活的琐碎与忧伤，送你真情的温馨与欢畅，元宵的祝福给你的最激荡，祝愿你节日愉快，身体强壮，心情舒爽，元宵快乐！</item>
+        <item>在关爱中让友情更深，在牵挂中让亲情更暖，在诚实中让心底更静，在简单中让生活更美，在问候中让祝福更好，在祝福中让元宵节更快乐！</item>
+        <item>短信轻吟舞蹁跹，无限问候暖心田，缕缕莲香沁心脾，温馨祝愿满心间，正月十五月正圆，廊桥美梦一线牵。在这个月圆之夜，送去我美好的心愿！</item>
+        <item>正月十五月儿圆，不管怎样还是年，先祝你元宵佳节快乐，再拜个晚年！愿你新的一年有新的突破，所有的希望都能如愿，所有的付出都能兑现！</item>
+        <item>你的美丽让人痴迷：额圆面嫩外表白皙，多情含蓄心甜如蜜，肤靓美体蕊红艳绿，温柔甘饴醉人心脾，十五灯夜吻你吃你！别紧张，我说的是汤圆！祝佳节快乐。</item>
+        <item>正月十五的花灯五彩缤纷，龙灯送你好前程，宫灯送你好生活，纱灯送你好爱情，树地灯送你好事业，蘑菇灯送你好家庭！愿一盏盏花灯不仅能为你的佳节生活增光添彩，更能使你今后的日子炫如彩虹！</item>
+        <item>相互思念长长久久，美好时光不会倒流，真心友情需要珍重，牵挂之心永不放松，闲暇之时记得问候，节假日子不忘祝福，今天元宵节，祝你元宵节快乐！</item>
+        <item>问世间，何为贵？山以青为贵，水以秀为贵，物以稀为贵，月以明为贵，人以正为贵，友以挚为贵，情以真为贵，我以你为贵！祝你元宵节快乐！</item>
+        <item>春天已经悄悄来到我们身边，元宵佳节，春风熏陶着沉醉的夜晚，我用心迭一只纸鹤，装上我满满的祝愿，飞翔在天边，飘落你身前，祝你元宵节愉快。</item>
+        <item>吃过喜庆的水饺，吃过长寿的面条，迎来团圆的元宵。元宵佳节就要到，亲手包只元宵送给你，我已经为你包进平平安安，包进顺顺利利，包进团团圆圆！</item>
+        <item>天圆圆，月圆圆，家圆圆，财圆圆，运圆圆，事圆圆，情圆圆，寿圆圆，福圆圆，人圆圆，元宵佳节送上圆圆的祝福：吉祥如意幸福团圆！</item>
+        <item>热热闹闹过大年，欢欢喜喜庆团圆。烟花灿烂元宵夜，普天同庆事事圆。愿你财源福源源源不断，良缘喜缘缘缘美满，人圆家圆圆圆满满！</item>
+    </string-array>
+    <string-array name="smsCategoryLantern_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+    </string-array>
+    <!-- HELP -->
+    <!-- ID20120618001 liuwen begin -->
+    <string-array name="preference_entries_help_title">
+        <item>最新功能</item>
+        <item>语音教学</item>
+        <item>语音播报</item>
+        <item>线控操作</item>
+        <item>主题设置</item>
+        <item>个性化设置</item>
+    </string-array>
+    <string-array name="preference_entries_help_content">
+
+        <!-- ID20121013001 liuwen begin -->
+        <item>新增功能：\n1.【图片搜索】如搜索刘德华的图片
+            \n优化：\n1.【聊天优化】文本语音输入可快速拖动切换\n2.【设置】可在聊天界面快速设置小智的各项功能</item>
+        <item>功能：能为您提供最好的私人知识助理，您可以以“问答的形式”存储您的私人信息，信息被存储后，就会被保存在云端，以后当 您想查找您私人信息的时候，就可以询问小智助手来及时查找，更加方便更加快捷！比如“问：我衬衫的尺码是多少？ 答：41码”\n\n使用：您可以说打开教学、我要教你、或者通过首页左下角按钮调用</item>
+        <item>功能：可以播报新来短信联系人及内容。\n使用：需要进入设置=>功能设置=>短信播报；默认仅会提醒您新消息来了</item>
+        <item>功能：通过有线耳机控制软件。\n使用：通过线控按钮来操控软件进行指令操作；方便开车人士使用打电话，发短信等</item>
+        <item>功能：美化界面。\n使用：需要进入设置=>主题设置=>选择你需要的皮肤</item>
+        <item>功能：个性化设置。\n使用：可以设置语音助理的名称，声音。还可以让她跟你说家乡话</item>
+    </string-array>
+    <!-- ID20121013001 liuwen end -->
+    <!-- ID20120618001 liuwen begin -->
+    <!-- 软件设置 -->
+
+
+    <!-- ID20121013001 liuwen begin -->
+    <string-array name="set_choose_broadcast_entries">
+        <item>捷通离线播报</item>
+        <item>听听中心离线播报</item>
+        <item>讯飞离线播报</item>
+        <item>讯飞在线播报</item>
+    </string-array>
+    <!-- ID20121013001 liuwen end -->
+
+    <string-array name="set_choose_broadcast_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- ID20120726002 zhanglin end -->
+    <string-array name="set_recognise_engine_entries">
+        <item>科大讯飞</item>
+        <item>Google</item>
+        <!-- <item>360定制</item> -->
+    </string-array>
+    <string-array name="set_recognise_engine_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- ID20121012002 liuwen begin -->
+    <string-array name="set_choose_widget_answer_entries">
+        <item>搜索您说的问题</item>
+        <item>小智教学</item>
+    </string-array>
+    <string-array name="set_choose_widget_answer_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- ID20121012002 liuwen end -->
+    <string-array name="set_choose_robot_entries">
+        <item>女声普通话</item>
+        <item>男声普通话</item>
+        <item>女童普通话</item>
+        <item>男童普通话</item>
+        <item>老人普通话</item>
+        <item>女声粤语</item>
+        <item>台湾普通话</item>
+        <item>女声四川话</item>
+        <item>女声东北话</item>
+        <item>男声河南话</item>
+        <item>男声湖南话</item>
+        <item>女声陕西话</item>
+    </string-array>
+    <string-array name="set_choose_robot_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <!-- ID20120928001 zhanglin begin -->
+    <string-array name="TranslateLanguage">
+        <item>英语</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>法语</item>
+        <item>俄语</item>
+        <item>意大利语</item>
+        <item>德语</item>
+        <item>葡萄牙语</item>
+        <item>繁体</item>
+        <item>泰语</item>
+        <item>阿拉伯语</item>
+        <item>希腊语</item>
+        <item>越南语</item>
+        <item>丹麦语</item>
+        <item>西班牙语</item>
+    </string-array>
+    <string-array name="TranslateLanguage_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>15</item>
+    </string-array>
+    <!-- ID20120928001 zhanglin begin -->
+    <!-- ID20120627001 hujinrong begin -->
+    <string-array name="Confirm_notation_values">
+        <item>亲，没听明白啊，您想说的是\"xxx\"吗？</item>
+        <item>亲，您想说的是\"xxx\"吗？</item>
+        <item>您想说的是\"xxx\"吧？</item>
+        <item>没明白哦，您想说的是\"xxx\"吗？</item>
+        <item>您不会想说\"xxx\"吧？</item>
+    </string-array>
+    <!-- ID20120627001 hujinrong end -->
+    <!-- ID20120627002 hujinrong begin -->
+    <string-array name="ExtendDate_good_values">
+        <item>多谢主人的称赞，我会继续努力的！</item>
+        <item>谢谢主人！</item>
+        <item>多谢主人的认可，我会努力学习的！</item>
+        <item>谢谢主人！您的认可是我最大的学习动力！</item>
+    </string-array>
+    <string-array name="ExtendDate_bad_values">
+        <item>多谢主人帮我指出错误！我会不断学习的！</item>
+        <item>看来您对我的答案不太满意，我会改进的！</item>
+    </string-array>
+    <string-array name="ExtendDate_alreadyDis_values">
+        <item>您已经顶过，不能重复评论哦。</item>
+        <item>您已经踩过，不能重复评论哦。</item>
+    </string-array>
+    <!-- ID20120627002 hujinrong end -->
+    <!-- ID20121011001 zhanglin begin -->
+    <string-array name="Push_Send_Umeng">
+        <item>空</item>
+        <item>程序升级</item>
+        <item>uri类别</item>
+        <item>指令类别</item>
+        <item>网络返回参数</item>
+        <item>帮助内容更新</item>
+    </string-array>
+    <string-array name="notify_Cannot_Get_Answer">
+        <item>您的网速不给力啊！</item>
+        <item>您网络出问题啦！</item>
+        <item>您的网络被大神切断了！</item>
+    </string-array>
+    <!-- ID20121117001 hujinrong begin -->
+    <string-array name="WakeupKeyWords">
+        <item>小智助手</item>
+        <item>小智</item>
+    </string-array>
+    <!-- ID20121117001 hujinrong end -->
+    <!-- ID20121011001 zhanglin begin -->
+
+
+    <!-- ID20121214002 hefeng begin -->
+    <string-array name="week_entries">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <!-- ID20121214002 hefeng end -->
+    <!-- ID20130105002 hujinrong begin -->
+    <string-array name="select_recharge_money">
+        <item>10元</item>
+        <item>30元</item>
+        <item>50元</item>
+        <item>100元</item>
+        <item>200元</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ffccddff</color>
+    <color name="blue_half">#80ccddff</color>
+    <color name="grey">#ff58616d</color>
+    <color name="toasterro">#ff9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ChattingSenderTextColor">#ff081c52</color>
+    <color name="ConversationVoiceTextColor">#ff339900</color>
+    <color name="selector_bg">#FFCC00</color>
+
+</resources>

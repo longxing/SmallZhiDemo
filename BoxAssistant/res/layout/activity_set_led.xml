@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/about_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <LinearLayout
+        android:id="@+id/set_led_layout"
+        style="@style/SetBoxLayout_new"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ba_set_led_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ba_set_led_switch"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/app_text_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="2dp"
+            android:singleLine="true"
+            android:textColor="@color/grey_9" />
+
+        <ImageView
+            android:id="@+id/set_led_swtich_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ba_switch_btn_on" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/set_led_line_v"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey_eae9e9" />
+
+    <LinearLayout
+        android:id="@+id/set_led_time_layout"
+        style="@style/SetBoxLayout_new"
+        android:layout_marginTop="0dp"
+        android:clickable="false" >
+
+        <Button
+            android:id="@+id/set_led_time_start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:text="23:00"
+            android:textSize="@dimen/app_text_size" />
+
+        <Button
+            android:id="@+id/set_led_time_end_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:text="07:00"
+            android:textSize="@dimen/app_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

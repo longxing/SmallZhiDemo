@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:background="@drawable/ba_actionbar_bg"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/head_left_btn"
+        style="@style/MyActionBarBtn"
+        android:layout_marginLeft="4.0dip"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/head_title_tv"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:text="title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/app_title_size" />
+
+    <ImageButton
+        android:id="@+id/head_right_btn"
+        style="@style/MyActionBarBtn"
+        android:layout_marginRight="4.0dip"
+        android:visibility="gone" />
+
+</LinearLayout>

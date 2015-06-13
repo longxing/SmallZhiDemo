@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/huanteng_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_third__bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/huantent_margin_top1"
+        android:src="@drawable/huangteng_logo" />
+
+    <EditText
+        android:id="@+id/huanteng_account_et"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/huantent_margin_top2"
+        android:background="@drawable/bg_edit_text"
+        android:drawableLeft="@drawable/huangteng_account_icon"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="账号"
+        android:paddingLeft="6.0dip"
+        android:paddingRight="6.0dip"
+        android:singleLine="true"
+        android:textColor="#ff333333"
+        android:textColorHint="#ff999999"
+        android:textSize="@dimen/text_content_size" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/huanteng_pwd_et"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/huantent_margin_top3"
+        android:background="@drawable/bg_edit_text"
+        android:drawableLeft="@drawable/wifi_config_pwd_icon"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="密码"
+        android:paddingLeft="6.0dip"
+        android:paddingRight="6.0dip"
+        android:password="true"
+        android:singleLine="true"
+        android:textColor="#ff333333"
+        android:textColorHint="#ff999999"
+        android:textSize="@dimen/text_content_size" >
+    </EditText>
+
+    <Button
+        android:id="@+id/huanteng_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/huantent_margin_top4"
+        android:background="@drawable/wifi_config_icon_btn_selector"
+        android:text="@string/ba_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_content_size" />
+
+</LinearLayout>

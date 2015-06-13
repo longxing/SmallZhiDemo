@@ -1,0 +1,9 @@
+[arg2][arg1]鐨刐arg0]
+[arg2][arg0]
+[arg2]
+<trg0>[arg2][arg1]鐨刐arg0]<trg1>
+<trg0>[arg2][arg0]<trg1>
+<trg2>[arg2][arg1]鐨刐arg0]
+<trg2>[arg2][arg0]
+<trg4><trg5>[arg1]鐨刐arg0]
+<trg4><trg5>[arg0]

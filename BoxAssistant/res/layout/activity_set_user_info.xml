@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MyActivityBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="为了我更好的给您服务，请填写如下信息"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        style="@style/SetUserInfoLayoutStyle"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            style="@style/SetUserInfoTextStyle"
+            android:text="性别" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/userinfo_radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="男"
+                android:textColor="@color/light_black"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/userinfo_radio_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="女"
+                android:textColor="@color/light_black"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <include layout="@layout/view_line" />
+
+    <LinearLayout style="@style/SetUserInfoLayoutStyle" >
+
+        <TextView
+            style="@style/SetUserInfoTextStyle"
+            android:text="出生年月" />
+
+        <Button
+            android:id="@+id/userinfo_birth_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:drawableRight="@drawable/set_icon_drop_down"
+            android:gravity="left|center_vertical"
+            android:padding="8dp"
+            android:text="1985-01-01"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/view_line" />
+
+    <LinearLayout style="@style/SetUserInfoLayoutStyle" >
+
+        <TextView
+            style="@style/SetUserInfoTextStyle"
+            android:text="学历" />
+
+        <Button
+            android:id="@+id/userinfo_edu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:drawableRight="@drawable/set_icon_drop_down"
+            android:gravity="left|center_vertical"
+            android:padding="8dp"
+            android:text="大专"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/view_line" />
+
+    <LinearLayout style="@style/SetUserInfoLayoutStyle" >
+
+        <TextView
+            style="@style/SetUserInfoTextStyle"
+            android:text="婚姻状况" />
+
+        <Button
+            android:id="@+id/userinfo_marriage_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:drawableRight="@drawable/set_icon_drop_down"
+            android:gravity="left|center_vertical"
+            android:padding="8dp"
+            android:text="保密"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/view_line" />
+
+    <LinearLayout style="@style/SetUserInfoLayoutStyle" >
+
+        <TextView
+            style="@style/SetUserInfoTextStyle"
+            android:text="子女" />
+
+        <Button
+            android:id="@+id/userinfo_children_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:drawableRight="@drawable/set_icon_drop_down"
+            android:gravity="left|center_vertical"
+            android:padding="8dp"
+            android:text="无"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/view_line" />
+
+    <LinearLayout style="@style/SetUserInfoLayoutStyle" >
+
+        <TextView
+            style="@style/SetUserInfoTextStyle"
+            android:text="血型" />
+
+        <Button
+            android:id="@+id/userinfo_boold_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ba_set_date_btn_selector"
+            android:drawableRight="@drawable/set_icon_drop_down"
+            android:gravity="left|center_vertical"
+            android:padding="8dp"
+            android:text="未知"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/userinfo_next_btn"
+        style="@style/MyButton"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/ba_next" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8" >
+
+    <include
+        android:id="@+id/head_layout"
+        layout="@layout/head_view_new" />
+
+    <com.iii360.box.view.XListView
+        android:id="@+id/music_play_list_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head_layout"
+        android:divider="@null" >
+    </com.iii360.box.view.XListView>
+
+    <RelativeLayout
+        android:id="@+id/music_play_list_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music_play_list_listview"
+        android:layout_margin="8dp"
+        android:background="@drawable/music_play_list_search"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/music_play_search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="搜索"
+                android:textColor="#ccc"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/music_play_list_search_below_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/music_play_list_search"
+        android:background="#cccccc"
+        android:visibility="gone" />
+
+</RelativeLayout>

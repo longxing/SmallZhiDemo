@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/about_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_height_size"
+        android:background="@drawable/ba_view_head_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/head_left_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ba_back_btn_selector"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="@string/ba_back"
+            android:textColor="@color/ba_player_back_text_selector"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/head_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/ba_main_mode"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_title_size" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/main_mode_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+
+    <Button
+        android:id="@+id/main_mode_help_btn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ba_mode_help" />
+
+</LinearLayout>

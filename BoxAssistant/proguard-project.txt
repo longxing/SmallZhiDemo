@@ -1,0 +1,92 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+
+-libraryjars libs/android-support-v4.jar
+-libraryjars libs/pinyin4j-2.5.0.jar
+-libraryjars libs/umeng-update-v2.4.2.jar
+
+#屏蔽警告
+-ignorewarnings
+
+# 以下类过滤不混淆  
+-keep public class * extends com.umeng.**
+# 以下包不进行过滤 
+-keep class com.umeng.** { *; }
+#speech
+-keep class com.iflytek.**{*;}
+#baidu
+-keep class com.baidu.**{*;}
+
+##---------------Begin: proguard configuration for Gson  ----------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# For using GSON @Expose annotation
+-keepattributes *Annotation*
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.google.gson.examples.android.model.** { *; }
+-keep class com.iii.wifi.dao.info.**{*;}
+-keep class com.iii.client.**{*;}
+-keep class com.iii.wifi.dao.manager.**{*;}
+-keep class com.iii.wifi.dao.newmanager.**{*;}
+-keep class com.voice.assistant.main.newmusic.**{*;}
+-keep class com.voice.common.tool.**{*;}
+-keep class com.voice.common.util.**{*;}
+
+##---------------End: proguard configuration for Gson  ----------
+
+# Explicitly preserve all serialization members. The Serializable interface
+# is only a marker interface, so it wouldn't save them.
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+-keepclassmembers class * extends com.iii360.box.base.BaseActivity{
+	public void showDialog();
+	public void dismissDialog(boolean);
+}
+-keepclassmembers class * extends android.support.v4.app.FragmentActivity{
+	public void showDialog();
+	public void dismissDialog(boolean);
+	public void setNeedUpdate(boolean);
+	public boolean isNeedUpdate();
+}
+-keep public class * implements java.io.Serializable {*;}
+
+# 枚举类不能去混淆
+-keepclassmembers enum * {  
+    public static **[] values();  
+    public static ** valueOf(java.lang.String);  
+} 
+
+#-dontobfuscate
+#-dontoptimize

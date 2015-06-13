@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能360盒子版</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="show_sms_count">当前第一条，字数34/70</string>
+    <string name="next">下一条</string>
+    <string name="reply">回复</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="ass_can_shere">共享</string>
+    <string name="set_save_phone_number">默认使用此号码</string>
+    <string name="sms_pop_call">拨打</string>
+    <string name="sms_pop_sms">回复</string>
+    <string name="sms_pop_delete">删除</string>
+    <string name="sms_pop_forwarding">转发</string>
+    <string name="play">播放</string>
+    <!-- ID20130718003 chenyuming begin -->
+    <string name="remind_open">开启</string>
+    <string name="remind_close">关闭</string>
+    <string name="remind_stateText">状\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020态:</string>
+    <string name="remind_remindTimeName">提醒时间:</string>
+    <string name="remind_edit_editreminder">修改</string>
+    <string name="remind_titleNameone">标\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020题:</string>
+    <string name="remind_contentName">备忘内容:</string>
+    <string name="remind_Save">保存</string>
+    <string name="remind_dateSelectOne">选择日期:</string>
+    <string name="remind_stopRemind">停止提醒</string>
+    <string name="remind_RemindLater">稍后提醒</string>
+    <string name="remind_select">点击选择</string>
+    <string name="remind_timeSelectOne">选择时间:</string>
+    <string name="remind_returnBtn">返\u0020\u0020\u0020\u0020\u0020\u0020\u0020回</string>
+    <string name="master_MyInfo">主人</string>
+    <!-- lichunwei start -->
+    <string name="ass_bless_select">请选择祝福短信</string>
+    <!-- lichunwei end -->
+
+    <string name="close_recognise_voice_title">关闭提示音</string>
+    <string name="close_recognise_voice_summary">关闭悬浮窗语音识别的提示音，可以加快初始化速度。</string>
+    <string name="open_float_button_summary">在桌面上显示悬浮按钮，您将可以随时进行语音操作。</string>
+    <string name="open_float_button_title">打开桌面悬浮按钮</string>
+    <string name="open_float_button_in_app_summary">仅在桌面显示悬浮按钮，其它应用中不显示。</string>
+    <string name="open_float_button_in_app_title">仅在桌面显示</string>
+    <string name="ass_screenshotpath">/sdcard/智能360截图.png</string>
+    <string name="ass_sendweibopng">/智能360截图.png</string>
+    <!-- ID20130521002 hefeng begin -->
+    <string name="ass_sendweiboContent">一见倾心，再见倾城。智能360，用过便不曾忘记。我下载了国内最棒的中文语音助手—智能360，她可以陪你聊天解闷、语音拨打电话、发送短信、查询天气机票美食、打开删除应用、信息搜索等。只有想不到，没有做不到！ @智能360官博 下载猛戳
+http://t.cn/zWcvtnb</string>
+    <string name="help_CommandHelp">我现在可以帮您打电话、写短信、发微博、写备忘、查天气、搜索资料、打开或删除应用、打开网站、播放电影、听音乐、陪你聊天等，你只要每天陪我玩，我就会很快长大!</string>
+    <!-- 出错 -->
+    <string name="sorry_Error">对不起，我没听懂</string>
+    <string name="is_search">正在搜索</string>
+    <string name="searchWhat_CommandLocal">您要搜索什么?</string>
+    <!-- ID20120621001 heyong end -->
+
+    <!-- 通用设置 -->
+    <string name="set_keep_awake_title">保持主界面常亮</string>
+    <string name="set_open_wifi_title">自动连接WIFI网络</string>
+    <string name="set_open_wifi_summary">打开本软件，将自动连接可用的WIFI网络</string>
+    <!-- 本地功能 -->
+    <string name="set_open_call_title">拨号前确认</string>
+    <string name="set_open_call_summary">拨号前确认号码，防止误操作</string>
+    <string name="set_open_remind_ring_title">备忘列表</string>
+    <string name="set_open_remind_ring_summary">查看、修改、删除备忘提醒</string>
+    <string name="set_choose_remind_ring_title">备忘铃声</string>
+    <string name="set_choose_remind_ring_summary">默认铃声</string>
+    <string name="set_open_save_number_title">拨打默认号码</string>
+    <string name="set_open_save_number_summary">开启后将自动拨打默认号码</string>
+    <string name="set_choose_broadcast_title">播报引擎选择</string>
+    <string name="set_choose_broadcast_dialog_title">选择联网或离线</string>
+
+    <!-- 聊天设置 -->
+    <string name="set_open_auto_title">自动聊天</string>
+    <string name="set_open_auto_summary">在开启声音、有网络、语音输入的情况下进入</string>
+    <string name="set_input_personal_title">我的称呼</string>
+    <string name="set_input_personal_summary">主人</string>
+    <string name="set_input_personal_dialog_title">您的称呼</string>
+    <string name="set_input_robot_title">机器人昵称</string>
+    <string name="set_input_robot_summary">小智</string>
+    <!-- ID20120724003 liuwen end -->
+    <string name="set_input_robot_dialog_title">机器人的称呼</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="set_choose_robot_title">机器人声音</string>
+    <string name="set_choose_robot_dialog_title">机器人的声音</string>
+    <!-- ID20120419007 liuwen begin -->
+    <string name="set_choose_voice_speed_title">机器人语速</string>
+    <!-- ID20120419007 liuwen end -->
+    <string name="set_open_animation_title">显示界面动画</string>
+    <string name="set_open_animation_summary">关闭动画可以加快界面的响应速度</string>
+    <string name="set_open_linecontrol_title">允许使用耳机线控</string>
+    <string name="set_open_linecontrol_summary">如无法启动，请检查其他软件是否占用线控</string>
+    <string name="set_open_useage_title">显示常用界面</string>
+    <string name="set_open_useage_summary"></string>
+    <string name="set_open_bluetooth_title">打开蓝牙连接</string>
+    <string name="set_open_bluetooth_summary">暂不支持捷通离线，部分机型暂不支持</string>
+    <!-- 生活助手 -->
+    <string name="set_choose_translate_out_title">默认输出语言</string>
+    <string name="set_choose_translate_out_summary">英语</string>
+    <string name="set_choose_translate_out_dialog_title">输出语言</string>
+    <!-- delete -->
+    <string name="set_choose_map_dialog_title">地图</string>
+    <string name="set_choose_map_title">定位地图</string>
+    <string name="set_choose_map_summary">在线地图</string>
+
+    <!-- 播报设置 -->
+    <string name="set_stop_broadcast_title">屏幕向下翻转</string>
+    <string name="set_stop_broadcast_summary">有短信不想让人听到？试试翻转手机吧</string>
+    <string name="set_broadcast_sms_display_title">新来短信桌面显示</string>
+    <string name="set_broadcast_phone_display_title">开启来电播报</string>
+    <string name="set_open_broadcast_sms_number_title">播报新短信联系人</string>
+    <string name="set_open_broadcast_sms_content_title">播报新短信内容</string>
+    <string name="set_local_answer_title">显示</string>
+    <string name="set_local_answer_content">显示方式选择</string>
+    <string name="set_local_serach_content">全屏显示</string>
+    <string name="set_local_serach_summary">搜索结果全屏显示</string>
+    <!-- 语音播报 -->
+    <!-- ID20130513002 hujinrong end -->
+    <!-- TTS相关 -->
+    <!-- 媒体播放相关 -->
+    <string name="set_recogize">语音识别设置</string>
+    <string name="set_speech_summary">定制语音播报的内容</string>
+    <string name="set_reload_localengine_summary">通讯录变化时请更新</string>
+    <string name="set_weakup_title">唤醒设置(唤醒词:小智助手)</string>
+    <string name="set_weakup_default_summary">唤醒关闭</string>
+    <string name="set_wakeup_turn_title">摇动手机开启唤醒</string>
+    <string name="set_wakeup_turn_summary">连续翻动手机屏幕两次朝下切换唤醒状态</string>
+    <string name="set_speech_voice_title">播报声音</string>
+    <string name="qq_group_daren">小智达人</string>
+    <string name="qq_group_hot_activity">热门活动</string>
+    <string name="weibo_group_title">官方微博</string>
+    <string name="fans_group_title">官方论坛</string>
+    <string name="qq_group_title">粉丝</string>
+    <string name="qq_group_wifi_error">您还没有连接网络，请连接网络</string>
+
+    <!-- ID20130510001 hefeng begin -->
+    <string name="set_about_company_name">聚熵信息技术有限公司</string>
+    <string name="set_about_official_url">官方网址:</string>
+    <string name="set_about_about">关于</string>
+
+</resources>

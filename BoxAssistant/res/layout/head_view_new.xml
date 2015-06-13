@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45.0dip"
+    android:background="@drawable/ba_view_head_bg" >
+
+    <TextView
+        android:id="@+id/head_left_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ba_back_btn_selector"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dp"
+        android:paddingRight="5dp"
+        android:text="@string/ba_back"
+        android:textColor="@color/ba_player_back_text_selector"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/head_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="title"
+        android:maxWidth="150dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/head_right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="8dp"
+            android:src="@drawable/player_to_list_btn_selector"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/ba_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ba_point_bg"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 蓝色，程序主色调 -->
+    <color name="blue">#3898d9</color>
+
+    <!-- 分割线灰色 -->
+    <color name="line_color">#cecece</color>
+
+    <!-- 选择淡蓝色 -->
+    <color name="item_blue_color">#d5ecfc</color>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 兰透明度白色 -->
+    <color name="alpha_white">#80ffffff</color>
+
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 浅黑色 -->
+    <color name="light_black">#333333</color>
+    <color name="black_2">#222222</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+    <!-- 浅灰色 -->
+    <color name="light_grey">#bbbbbb</color>
+
+    <!-- 灰色 -->
+    <color name="grey">#666666</color>
+
+    <!-- 蓝色 -->
+    <color name="blue">#39a1e8</color>
+    <!-- cae5f8蓝色 -->
+    <color name="blue_cae5f8">#CAE5F8</color>
+
+    <!-- 淡蓝色 -->
+    <color name="light_blue">#3898d9</color>
+
+    <!-- f7灰色 -->
+    <color name="grey_f7">#f7f7f7</color>
+
+    <!-- e灰色 -->
+    <color name="grey_e">#eeeeee</color>
+    <!-- d灰色 -->
+    <color name="grey_d">#DDDDDD</color>
+
+    <!-- 9灰色 -->
+    <color name="grey_9">#999999</color>
+
+    <!-- eae9e9灰色 -->
+    <color name="grey_eae9e9">#eae9e9</color>
+
+    <!-- dedfdf灰色 -->
+    <color name="grey_dedfdf">#dedfdf</color>
+    <color name="yellow_fffac7">#fffac7</color>
+    <color name="red">#ff0000</color>
+    <color name="c5">#c5c5c5</color>
+
+    <!-- 主界面线条灰色 -->
+    <color name="d4">#d4d4d4</color>
+    <color name="about_bg">#f8f8f8</color>
+    
+    
+
+</resources>

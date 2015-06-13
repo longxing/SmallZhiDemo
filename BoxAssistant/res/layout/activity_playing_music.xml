@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/player_main_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/player_bg1" >
+
+            <LinearLayout
+                android:id="@+id/play_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/line"
+                android:orientation="vertical" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/playing_music_flipper"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0" >
+                </android.support.v4.view.ViewPager>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <ImageView
+                        android:id="@+id/player_bad_music_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/player_lajitong_selector"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/guide_view_point_linearlayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="8dip"
+                            android:src="@drawable/player_viewpager_point" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="8dip"
+                            android:src="@drawable/player_viewpager_point" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/player_shared_music_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/player_good_music_btn"
+                        android:layout_marginRight="15dp"
+                        android:layout_toLeftOf="@+id/player_good_music_btn"
+                        android:src="@drawable/player_shared_music_selector"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/player_good_music_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/player_good_music_selector"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/music_control_layout"
+                android:background="#454545" />
+
+            <RelativeLayout
+                android:id="@+id/music_control_layout"
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_alignParentBottom="true" >
+
+                <Button
+                    android:id="@+id/music_player_play_or_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/player_play_btn_selector" />
+
+                <ImageButton
+                    android:id="@+id/music_player_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_toLeftOf="@+id/music_player_play_or_pause"
+                    android:background="@null"
+                    android:padding="15dp"
+                    android:src="@drawable/player_last_btn_selector" />
+
+                <ImageButton
+                    android:id="@+id/music_player_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/music_player_play_or_pause"
+                    android:background="@null"
+                    android:padding="15dp"
+                    android:src="@drawable/player_next_btn_selector" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/music_player_dlan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#191919"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/xieyi_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/music_xieyi"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/music_player_seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:maxHeight="3dp"
+            android:minHeight="3dp"
+            android:padding="10dp"
+            android:progressDrawable="@drawable/seekbar_bg_selector"
+            android:thumb="@drawable/music_player_thumb"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

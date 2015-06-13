@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="train_title">训练</string>
+    <string name="test_title">测试</string>
+    <string name="app_name">VoiceRecognizerEngine</string>
+    <string name="channel_id">360_common</string>
+    <string name="canot_find_activity">can\'t find activity for this request.</string>
+    <string name="no_googleapk">你还没有安装google语音搜索，</string>
+    <string name="install_google_voice_tools">请安装google语音识别组件！</string>
+    <string name="ass_sdcard_error">sd卡不可用！</string>
+    <string name="set_recognise_engine">请选择引擎</string>
+    <string name="set_recognise_engine_title">识别引擎选择</string>
+    <string name="set_open_recognise_service_title">开启服务</string>
+    <string name="set_open_recognise_service_summary">开启语音识别服务</string>
+    <string name="open_float_button_in_app_summary">仅在桌面显示悬浮按钮，其它应用中不显示。</string>
+    <string name="open_float_button_in_app_title">仅在桌面显示</string>
+    <string name="close_recognise_voice_title">关闭提示音</string>
+    <string name="close_recognise_voice_summary">关闭悬浮窗语音识别的提示音，可以加快初始化速度。</string>
+    <string name="use_inner_parser_title">使用内部解析器</string>
+    <string name="use_inner_parser_summary">若关闭此项，将使用外部的语义解析器（如果没有安装外部解析器，请勾选此项，否则将导致语音命令无法执行）。</string>
+    
+</resources>

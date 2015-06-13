@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.voice.assistant.main"
+    android:versionCode="3072"
+    android:versionName="V2.8.0.8.0611" >
+
+    <permission android:name="android.permission.VOICE_ASSISTANT_WAKEUP_RELATED_EVENT" />
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.Manifest.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.VOICE_ASSISTANT_WAKEUP_RELATED_EVENT" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+ 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.voice.assistant.main.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:hardwareAccelerated="false"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.voice.platform.meta.ROBOTID"
+            android:value="f4837ef1-b961-4c94-ab2b-b46948a88478" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="53d0763c56240b7a540060a8" >
+        </meta-data>
+        <!-- 智游推送 -->
+        <meta-data
+            android:name="ZYPUSH_APPKEY"
+            android:value="8a91449b1fe4b71c64b12febe72be74d" />
+        <!-- 统计各个市场的下载量 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="smallzhi" />
+
+        <activity
+            android:name=".AssistantLauncherActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AssistantMainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/My.Translucent"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" >
+                </category>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.voice.assistant.EXCUTE_COMMAND" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" >
+                </action>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH_LONG_PRESS" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VOICE_COMMAND" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.CAR_DOCK" >
+                </category>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.CAR_MODE" >
+                </category>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.voiceAssistant" >
+                </category>
+            </intent-filter>
+            <!-- ID20130718001 hujinrong begin -->
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+      
+        <receiver
+            android:name="com.voice.assistant.receiver.BootBroadcastReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ERROR_REBOOT" />
+            </intent-filter>
+        </receiver>
+     
+        
+        <receiver android:name="com.iii360.sup.common.utl.net.WTBroadcast" >
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.SCAN_RESULTS" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.voice.assistant.set.weatherbroadcast.receiver.WeatherBroadCast" >
+        </receiver>
+
+        <!-- u盟feedback -->
+
+        <activity
+            android:name="com.voice.assistant.set.SetUmengFeedBack"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.voice.assistant.SET_FEEDBACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.voice.assistant.receiver.ModifySystemTimeReciver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIME_TICK" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <!-- ID20130730004 hujinrong end -->
+        <service
+            android:name="com.voice.assistant.main.music.MediaPlayerService"
+            android:enabled="true" />
+        <service
+            android:name="com.voice.common.util.TTSService"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- 指定调用AIDL服务的ID -->
+                <action android:name="com.voice.common.util.ITTSService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.voice.assistant.main.newmusic.GoodMusicService"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- 指定调用AIDL服务的ID -->
+                <action android:name="com.voice.assistant.main.newmusic.GoodMusicService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.voice.common.util.RemindService"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- 指定调用AIDL服务的ID -->
+                <action android:name="com.voice.common.util.IRemindService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.voice.assistant.set.weatherbroadcast.receiver.AssistantReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.voice.assistant.receiver.DlnaMusicReceiver" >
+            <intent-filter>
+                <action android:name="com.voice.assistant.DlnaMusicReceiver.play" />
+                <action android:name="com.voice.assistant.DlnaMusicReceiver.pause" />
+                <action android:name="com.voice.assistant.DlnaMusicReceiver.stop" />
+            </intent-filter>
+        </receiver>
+        <!--
+             <receiver
+            android:name="com.voice.assistant.upgrade.UpgradeSupport"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.voice.assistant.upgrade.READY_UPGRADE" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <service android:name="com.iii360.base.audioutil.UploadService" >
+        </service>
+        <service android:name="com.iii360.external.wakeup.WakeupService" >
+        </service>
+        <service android:name="com.voice.assistant.service.ControlWeakupService" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.iii360.voiceassistant.aidl.IWakeUpController" />
+            </intent-filter>
+        </service>
+        <service android:name="com.smallzhi.clingservice.dlna.service.AndroidUpnpInitService" />
+        <service android:name="com.example.clingservice.media.MyMediaPlayerService" />
+        <service android:name="nz.co.iswe.android.airplay.AirPlayServer" />
+
+        <receiver android:name="com.voice.assistant.receiver.AirplayMusicReceiver" >
+            <intent-filter>
+                <action android:name="com.voice.assistant.receiver.AirplayMusicReceiver.play" />
+                <action android:name="com.voice.assistant.receiver.AirplayMusicReceiver.pause" />
+                <action android:name="com.voice.assistant.receiver.AirplayMusicReceiver.stop" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <!-- 百度API 要求的 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+</manifest>

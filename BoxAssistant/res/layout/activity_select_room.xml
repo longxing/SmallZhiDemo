@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MyActivityBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+       <include layout="@layout/head_view_new" />
+
+    <LinearLayout
+        android:id="@+id/dog_room_layout"
+        style="@style/SetBoxLayout"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/select_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:maxEms="15"
+            android:singleLine="true"
+            android:text="@string/ba_select_dog_room"
+            android:textColor="@color/light_black" />
+
+        <TextView
+            android:id="@+id/dog_room_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/light_black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ba_set_right_icon" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dog_next_btn"
+        style="@style/MyButton"
+        android:layout_marginTop="150dp"
+        android:text="@string/ba_next" />
+
+</LinearLayout>

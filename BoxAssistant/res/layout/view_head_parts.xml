@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_bar_height_size"
+    android:background="@drawable/ba_view_head_bg"
+    android:gravity="center_vertical" >
+
+    <ImageButton
+        android:id="@+id/head_back_btn"
+        style="@style/HeadButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ba_back_btn_selector" />
+
+    <TextView
+        android:id="@+id/head_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/app_title_size" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/head_right_btn"
+            style="@style/HeadButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ba_add_btn_selector" />
+
+        <TextView
+            android:id="@+id/ba_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:background="@drawable/ba_point_bg"
+            android:gravity="center"
+            android:text="1"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_title">18dp</dimen>
+    <dimen name="main_title_size">18dp</dimen>
+    <dimen name="app_text_size">16dp</dimen>
+    <dimen name="app_title_size">22dp</dimen>
+    <dimen name="title_bar_height_size">45dp</dimen>
+
+    <!-- 分割线高度 -->
+    <dimen name="view_line_height">0.5dp</dimen>
+    <dimen name="text_content_size">18sp</dimen>
+    <dimen name="main_top_bottom_margin">17dp</dimen>
+    <dimen name="guide_view_margin_top">5dp</dimen>
+    <dimen name="guide_view_button_margin_bottom">70dp</dimen>
+    <dimen name="wifi_config_margintop">30dp</dimen>
+    <dimen name="wifi_config_title_logo_margintop">80dp</dimen>
+    <dimen name="no_smart_margintop">1dp</dimen>
+    <dimen name="huantent_margin_top1">68dp</dimen>
+    <dimen name="huantent_margin_top2">54dp</dimen>
+    <dimen name="huantent_margin_top3">17dp</dimen>
+    <dimen name="huantent_margin_top4">35dp</dimen>
+    <dimen name="swipe_menu_width">75dp</dimen>
+    <dimen name="ximalaya_gridview_horizontal_spacing">18dp</dimen>
+    <dimen name="ximalaya_gridview_margin">20dp</dimen>
+    <dimen name="ximalaya_catetory_item_margin">5dp</dimen>
+    <dimen name="ximalaya_album_item_height">90dp</dimen>
+    <dimen name="ximalaya_audio_item_height">50dp</dimen>
+    <dimen name="music_song_name_bottom">10dp</dimen>
+    <dimen name="wifi_unconnected_margin_top1">80dp</dimen>
+    <dimen name="wifi_unconnected_margin_top2">80dp</dimen>
+</resources>

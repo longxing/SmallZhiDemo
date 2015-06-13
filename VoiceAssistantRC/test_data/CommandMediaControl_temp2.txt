@@ -1,0 +1,2 @@
+<trg3>[arg0]<trg2>
+<trg1><trg3>[arg0]<trg2>

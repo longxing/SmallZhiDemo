@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wifi_unconnect_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/wifi_unconnect_logo" />
+
+    <TextView
+        android:id="@+id/main_check_tip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/wifi_unconnected_margin_top1"
+        android:text="请将手机连接到WIFI网络"
+        android:textColor="#666666"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/main_check_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="@dimen/wifi_unconnected_margin_top2"
+        android:background="@drawable/ba_connect_btn_selector"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="启动WIFI"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>

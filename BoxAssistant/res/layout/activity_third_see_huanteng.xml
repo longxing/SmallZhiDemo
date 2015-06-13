@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_third__bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/huantent_margin_top1"
+        android:src="@drawable/huangteng_logo" />
+
+    <TextView
+        android:id="@+id/huanteng_add_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/huantent_margin_top2"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/huanteng_add_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/huanteng_unbund_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/huantent_margin_top4"
+        android:background="@drawable/wifi_config_icon_btn_selector"
+        android:text="@string/ba_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_content_size" />
+
+</LinearLayout>

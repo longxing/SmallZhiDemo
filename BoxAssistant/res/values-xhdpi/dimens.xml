@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="main_top_bottom_margin">27dp</dimen>
+    <dimen name="guide_view_margin_top">40dp</dimen>
+    <dimen name="guide_view_button_margin_bottom">80dp</dimen>
+    <dimen name="wifi_config_margintop">60dp</dimen>
+    <dimen name="wifi_config_title_logo_margintop">100dp</dimen>
+    <dimen name="no_smart_margintop">25dp</dimen>
+    <dimen name="huantent_margin_top1">82dp</dimen>
+    <dimen name="huantent_margin_top2">65dp</dimen>
+    <dimen name="huantent_margin_top3">20dp</dimen>
+    <dimen name="huantent_margin_top4">42dp</dimen>
+    <dimen name="swipe_menu_width">80dp</dimen>
+    <dimen name="ximalaya_album_item_height">110dp</dimen>
+    <dimen name="ximalaya_audio_item_height">60dp</dimen>
+    <dimen name="music_song_name_bottom">25dp</dimen>
+    <dimen name="wifi_unconnected_margin_top1">100dp</dimen>
+    <dimen name="wifi_unconnected_margin_top2">120dp</dimen>
+
+</resources>

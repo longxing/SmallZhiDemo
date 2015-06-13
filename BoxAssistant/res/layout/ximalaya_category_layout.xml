@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8" >
+
+    <include
+        android:id="@+id/head_layout"
+        layout="@layout/head_view_new" />
+
+    <GridView
+        android:id="@+id/ximalaya_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/head_layout"
+        android:layout_margin="@dimen/ximalaya_gridview_margin"
+        android:horizontalSpacing="@dimen/ximalaya_gridview_horizontal_spacing"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</RelativeLayout>

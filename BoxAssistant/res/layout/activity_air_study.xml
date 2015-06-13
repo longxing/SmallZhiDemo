@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MyActivityBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ba_air_study_toast" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" >
+
+        <Button
+            android:id="@+id/air_study_btn"
+            style="@style/MyButton"
+            android:layout_gravity="center"
+            android:text="@string/ba_study_open_air" />
+
+        <Button
+            android:id="@+id/air_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:background="@drawable/ba_delete_btn_selector"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/air_close_study_btn"
+            style="@style/MyButton"
+            android:layout_gravity="center"
+            android:text="@string/ba_study_close_air" />
+
+        <Button
+            android:id="@+id/air_close_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:background="@drawable/ba_delete_btn_selector"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:id="@+id/air_complete_study_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/grey_dedfdf"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="下一步"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/ba_textcolor_selector" />
+
+</LinearLayout>

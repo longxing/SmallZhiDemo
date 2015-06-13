@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="PKEY_OPEN_RECOGNISE_SERVICE"
+            android:summary="@string/set_open_recognise_service_summary"
+            android:title="@string/set_open_recognise_service_title"/>
+        
+        <CheckBoxPreference
+            android:key="PKEY_USE_INNER_PARSER"
+            android:dependency="PKEY_OPEN_RECOGNISE_SERVICE"
+            android:defaultValue="true"
+            android:summary="@string/use_inner_parser_summary"
+            android:title="@string/use_inner_parser_title"/>
+        
+        <CheckBoxPreference
+            android:key="PKEY_OPEN_FLOAT_BUTTON_ONLY_IN_DESKTOP"
+            android:dependency="PKEY_OPEN_RECOGNISE_SERVICE"
+            android:defaultValue="false"
+            android:summary="@string/open_float_button_in_app_summary"
+            android:title="@string/open_float_button_in_app_title"/>
+        
+        
+        <CheckBoxPreference
+            android:key="PKEY_CLOSE_RECOGNISE_VOICE"
+            android:dependency="PKEY_OPEN_RECOGNISE_SERVICE"
+            android:defaultValue="false"
+            android:summary="@string/close_recognise_voice_summary"
+            android:title="@string/close_recognise_voice_title"/>
+        
+        <ListPreference
+            android:dialogTitle="@string/set_recognise_engine"
+            android:entries="@array/set_recognise_engine_entries"
+            android:entryValues="@array/set_recognise_engine_values"
+            android:key="PKEY_RECOGNISE_ENGINE"
+            android:dependency="PKEY_OPEN_RECOGNISE_SERVICE"
+            android:title="@string/set_recognise_engine_title"
+            android:defaultValue="0"/>
+        
+    <Preference
+        android:title="@string/train_title">
+        <intent
+            android:action="com.voice.assistant.action.TRAIN"
+            android:targetPackage="com.voice.assistant.recognizer" />
+    </Preference>
+    <Preference
+        android:title="@string/test_title">
+        <intent
+            android:action="com.voice.assistant.action.TEST"
+            android:targetPackage="com.voice.assistant.recognizer" />
+    </Preference>
+    
+</PreferenceScreen>

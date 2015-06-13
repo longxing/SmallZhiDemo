@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- ID20130718003 chenyuming begin -->
+    <dimen name="LargeTextSize">18.0dip</dimen>
+     
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="SmallTextSize">11.0dip</dimen>
+    <dimen name="SmallerTextSize">9.0dip</dimen>
+    <dimen name="ChattingContentMinHeight">49.0dip</dimen>
+    
+    <dimen name="btn_demo_margin_h">50dip</dimen>
+	<dimen name="btn_demo_padding">20dip</dimen>
+	<dimen name="common_view_margin">8dip</dimen>
+	<dimen name="text_introduction_size">19sp</dimen>
+	<!-- ID20130803001 lichunwei start -->
+	<dimen name="hotel_bottom_tab_padding_drawable">2.0dip</dimen>
+	<dimen name="hotel_bottom_tab_padding_up">5.0dip</dimen>
+	<dimen name="hotel_bottom_tab_font_size">14.0dip</dimen>
+	<!-- ID20130803001 lichunwei end -->
+</resources>
+<!-- ID20130718003 chenyuming end -->

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iii.wifiserver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="adnroid.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  
+    <!--
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+	-->
+	
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.iii.wifiserver.WifiServerApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.iii.wifiserver.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.iii.wifiserver.receiver.ChangeDeviceDBReceiver" >
+            <intent-filter>
+                <action android:name="IKEY_DELETE_DEVICE" />
+                <action android:name="IKEY_DELETE_DEVICE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.iii.wifiserver.receiver.GlobalReceiver" >
+            <intent-filter android:priority="2147483647"> 
+                <!-- 
+                      <action android:name="android.intent.action.BOOT_COMPLETED" />
+                 -->
+                <action android:name="com.voice.assistant.main.GOOD_MUSIC_BEGIN" />
+                <action android:name="com.voice.assistant.main.GOOD_MUSIC_END" />
+                <action android:name="com.iii.wifiserver.receiver.COMMAND_CHANGE" />
+                <action android:name="com.iii.wifiserver.receiver.MusicChangeReceiver.control" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.iii.wifiserver.DogControllerService"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- 指定调用AIDL服务的ID -->
+                <action android:name="com.voice.common.util.IDogControlService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.orvibo.lib.wiwo.core.WiwoService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.orvibo.lib.wiwo.WiwoService" />
+            </intent-filter>
+        </service>
+
+        <!-- 推送 -->
+        <service android:name="com.smallzhi.push.manager.PushService" />
+     
+        <receiver
+            android:name="com.smallzhi.push.manager.EnventListenerReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.smallzhi.COMMAND_RECEIVED" />
+                <action android:name="com.smallzhi.SENT_FAILED" />
+                <action android:name="com.smallzhi.SENT_SUCCESS" />
+                <action android:name="com.smallzhi.CONNECTION_CLOSED" />
+                <action android:name="com.smallzhi.CONNECTION_FAILED" />
+                <action android:name="com.smallzhi.CONNECTION_SUCCESS" />
+                <action android:name="com.smallzhi.REPLY_RECEIVED" />
+                <action android:name="com.smallzhi.CONNECTION_STATUS" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="com.iii.wifiserver.receiver.BatteryBroadcastReciver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

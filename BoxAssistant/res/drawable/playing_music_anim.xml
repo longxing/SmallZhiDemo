@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/ico_music_01"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_02"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_03"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_04"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_05"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_06"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_07"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_08"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_09"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_10"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_11"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ico_music_12"
+        android:duration="200"/>
+
+</animation-list>

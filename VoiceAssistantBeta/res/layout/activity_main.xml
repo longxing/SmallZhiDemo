@@ -1,0 +1,54 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- ID20130729003 hefeng begin -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/main_top_linear_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_temp"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="logo"
+                android:textSize="25sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/voiceadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="voice+"
+                android:textSize="25sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/voiceremove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="voice-"
+                android:textSize="25sp" >
+            </Button>
+        </LinearLayout>
+
+        <include layout="@layout/main_bottom_content" />
+    </FrameLayout>
+
+    <!-- ID20130729003 hefeng end -->
+
+</LinearLayout>

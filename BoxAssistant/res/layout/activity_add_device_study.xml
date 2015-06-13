@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MyActivityBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <include layout="@layout/head_view_new" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ba_study_toast" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" >
+
+        <Button
+            android:id="@+id/add_study_btn"
+            style="@style/MyButton"
+            android:layout_gravity="center"
+            android:text="@string/ba_start_study" />
+
+        <Button
+            android:id="@+id/add_delete_study_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:background="@drawable/ba_delete_btn_selector"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

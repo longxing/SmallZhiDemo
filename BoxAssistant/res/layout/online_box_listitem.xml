@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/online_box_item_selector" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="13dp" >
+
+            <TextView
+                android:id="@+id/box_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="音箱"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_content_size" />
+
+            <ImageView
+                android:id="@+id/box_connect_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/box_name_tv"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/box_name_tv"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/online_box_item_ico_connected" />
+
+            <TextView
+                android:id="@+id/box_ip_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/box_name_tv"
+                android:textSize="@dimen/text_content_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/box_play_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/online_box_item_selector"
+            android:paddingLeft="23dp"
+            android:paddingRight="23dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/online_box_item_play_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

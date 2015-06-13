@@ -1,0 +1,11 @@
+﻿<trg1>[arg0]<trg2>[arg1]<trg3>
+<trg1>[arg0]<trg6>[arg1]
+[arg2]<trg1>[arg0]<trg2>[arg1]<trg3>
+[arg2]<trg1>[arg0]<trg6>[arg1]
+[arg0]<trg2>[arg1]<trg3>
+[arg2]<trg2>[arg1]<trg3>
+<trg2>[arg1]<trg7>
+<trg4>[arg1]<trg3>
+<trg4>[arg1]<trg6>
+<trg4>[arg1]
+[arg1]<trg5>

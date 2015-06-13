@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_config_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wifi_config"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_view_new" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/wifi_config_title_logo_margintop"
+        android:src="@drawable/wifi_config_icon" />
+
+    <TextView
+        android:id="@+id/wifi_config_ssid_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_content_size" />
+
+    <EditText
+        android:id="@+id/wifi_config_pwd_et"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/wifi_config_margintop"
+        android:background="@drawable/bg_edit_text"
+        android:drawableLeft="@drawable/wifi_config_pwd_icon"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/ba_wifi_pwd"
+        android:paddingLeft="6.0dip"
+        android:paddingRight="6.0dip"
+        android:singleLine="true"
+        android:textColor="#ff333333"
+        android:textColorHint="#ff999999"
+        android:textSize="@dimen/text_content_size" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/wifi_config_nopwd_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/wifi_config_margintop"
+        android:singleLine="true"
+        android:textColor="#ff999999"
+        android:textSize="@dimen/text_content_size"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/wifi_config_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/wifi_config_margintop"
+        android:background="@drawable/wifi_config_icon_btn_selector"
+        android:text="@string/ba_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_content_size" />
+
+    <TextView
+        android:id="@+id/wifi_config_toast_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="@dimen/wifi_config_margintop"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/wifi_config_connect_toast"
+        android:textColor="@color/grey"
+        android:autoLink="phone"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+</LinearLayout>

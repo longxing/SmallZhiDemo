@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ffccddff</color>
+    <color name="blue_half">#80ccddff</color>
+    <color name="grey">#ff58616d</color>
+    <color name="toasterro">#ff9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ChattingSenderTextColor">#ff081c52</color>
+    <color name="ConversationVoiceTextColor">#ff339900</color>
+    <color name="selector_bg">#FFCC00</color>
+
+    <!-- ID20130805002  lichunwei start -->
+    <color name="hotel_text_left">#606060</color>
+    <color name="hotel_text_right">#AEAEAE</color>
+    <color name="hotel_tab_radio">#989999</color>
+    <color name="hotel_name_color">#333333</color>
+    <color name="hotel_select_sp">#E7E7E7</color>
+
+    <!-- ID20130805002  lichunwei end -->
+    <!-- ID20130905004 chenyuming begin -->
+    <color name="help_item_normal">#4da1ff</color>
+    <color name="help_item_selected">#ff8a00</color>
+    <!-- ID20130905004 chenyuming end -->
+</resources>
